@@ -87,9 +87,6 @@ def divide(a: float, b: float) -> float:
     """
     # TODO: 구현하세요
     # 힌트: b가 0이면 ZeroDivisionError를 발생시켜야 합니다
-    try:
-        a/b
-    except ZeroDivisionError as e:
-        print(f"0으로 나눌 수 없습니다 : {e}")
-    else:
-        return a/b
+    if b == 0:
+        raise ZeroDivisionError("0으로 나눌 수 없습니다.")
+    return a / b
