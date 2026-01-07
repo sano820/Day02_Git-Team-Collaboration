@@ -6,7 +6,7 @@
 """
 
 from typing import List
-
+import statistics
 
 def mean(numbers: List[float]) -> float:
     """숫자 리스트의 평균을 반환합니다.
@@ -28,7 +28,9 @@ def mean(numbers: List[float]) -> float:
     """
     # TODO: 구현하세요
     # 힌트: 빈 리스트 체크 필요
-    pass
+    if not numbers:
+        raise ValueError("리스트가 비어있습니다")
+    return statistics.mean(numbers)
 
 
 def median(numbers: List[float]) -> float:
@@ -55,7 +57,9 @@ def median(numbers: List[float]) -> float:
     """
     # TODO: 구현하세요
     # 힌트: sorted()로 정렬 후 가운데 값 찾기
-    pass
+    if not numbers:
+        raise ValueError("리스트가 비어있습니다")
+    return statistics.median(numbers)
 
 
 def mode(numbers: List[float]) -> float:
@@ -81,7 +85,9 @@ def mode(numbers: List[float]) -> float:
     """
     # TODO: 구현하세요
     # 힌트: 딕셔너리로 빈도수 카운트
-    pass
+    if not numbers:
+        raise ValueError("리스트가 비어있습니다")
+    return statistics.mode(numbers)
 
 
 def variance(numbers: List[float]) -> float:
@@ -104,4 +110,6 @@ def variance(numbers: List[float]) -> float:
     """
     # TODO: 구현하세요
     # 힌트: 먼저 평균을 구한 후, 각 값과 평균의 차이의 제곱을 구하고 평균
-    pass
+    if not numbers:
+        raise ValueError("리스트가 비어있습니다")
+    return statistics.pvariance(numbers)
