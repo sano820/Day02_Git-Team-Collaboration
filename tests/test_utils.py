@@ -81,8 +81,8 @@ class TestFormatOutput:
 
     def test_korean_name(self):
         """한글 이름"""
-        assert format_output("중앙값", 5.0) == "중앙값: 5.0"
+        assert format_output("중앙값", 5.0) == "중앙값: 5.00"
 
     def test_english_name(self):
         """영어 이름"""
-        assert format_output("Mean", 3.5) == "Mean: 3.5"
+        assert format_output("Mean", 3.5) == "Mean: 3.50"
