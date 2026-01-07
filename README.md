@@ -108,26 +108,26 @@ pytest tests/test_calculator.py -v
 ## 완료 체크리스트
 
 ### Phase 1: 환경 설정
-- [ ] 저장소 Fork 완료 (팀장)
-- [ ] 팀원 Collaborator 초대 완료
-- [ ] 모든 팀원 Clone 완료
-- [ ] pytest 설치 및 동작 확인
+- [x] 저장소 Fork 완료 (팀장)
+- [x] 팀원 Collaborator 초대 완료
+- [x] 모든 팀원 Clone 완료
+- [x] pytest 설치 및 동작 확인
 
 ### Phase 2: pytest 학습
-- [ ] pytest 기초 문서 읽기
-- [ ] 테스트 실행 방법 이해
-- [ ] assert 문 사용법 이해
+- [x] pytest 기초 문서 읽기
+- [x] 테스트 실행 방법 이해
+- [x] assert 문 사용법 이해
 
 ### Phase 3: Feature Branch 작업
-- [ ] 팀원 A: calculator.py 구현 완료
-- [ ] 팀원 B: statistics.py 구현 완료
-- [ ] 팀원 C: utils.py 구현 완료
-- [ ] 각자 테스트 통과 확인
+- [x] 팀원 A: calculator.py 구현 완료
+- [x] 팀원 B: statistics.py 구현 완료
+- [x] 팀원 C: utils.py 구현 완료
+- [x] 각자 테스트 통과 확인
 
 ### Phase 4: Pull Request
-- [ ] 모든 팀원 PR 생성 완료
-- [ ] 코드 리뷰 완료 (최소 1명 Approve)
-- [ ] 모든 PR Merge 완료
+- [x] 모든 팀원 PR 생성 완료
+- [x] 코드 리뷰 완료 (최소 1명 Approve)
+- [x] 모든 PR Merge 완료
 
 ### Phase 5: 충돌 해결
 - [ ] SHARED_CONFIG.py 동시 수정
