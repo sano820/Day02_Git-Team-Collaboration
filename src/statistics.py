@@ -89,7 +89,7 @@ def mode(numbers: List[float]) -> float:
         raise ValueError("리스트가 비어있습니다")
     return statistics.mode(numbers)
 
-
+     
 def variance(numbers: List[float]) -> float:
     """숫자 리스트의 분산을 반환합니다.
 
